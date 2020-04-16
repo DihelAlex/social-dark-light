@@ -1,0 +1,102 @@
+
+
+
+body {
+  overflow-x: hidden;
+}
+p {
+  font-size: 1rem;
+  color: grey;
+  font-family: 'Inter', sans-serif;
+}
+h4 {
+  font-size: 1.5rem;
+  color: grey;
+  font-family: 'Inter', sans-serif;
+}
+h3 {
+  font-size: 2.5rem;
+  color: black;
+  font-family: 'Inter', sans-serif;
+}
+h2 {
+  font-size: 3.5rem;
+  color: black;
+  font-family: 'Inter', sans-serif;
+}
+h1 {
+  font-size: 4rem;
+  color: black;
+  font-family: 'Inter', sans-serif;
+}
+
+#Title {
+  padding: 3% 8%;
+  background-color: #f5f7ff
+
+}
+.darkMode {
+  text-align: right;
+}
+.bulb {
+  text-align: right;
+  font-size: 3rem;
+  color: grey
+}
+
+#Followers {
+  background-color: #fcfcfc
+  padding: 3% 8%;
+  text-align: center;
+}
+#Overview {
+  padding: 3% 8%;
+  background-color: #fcfcfc
+}
+
+.card{
+  margin: 10% auto;
+  background-color: #f0f2fa!important;
+}
+.carda {
+  background-color: var(--card);
+}
+.left-ov {
+  text-align: center;
+  padding-top: 9%;
+}
+
+.instagramBorder {
+  border-top: thick solid transparent;
+  border-image: linear-gradient(60deg, #fdc468, #dd3c8f);
+  border-image-slice: 1;
+
+}
+.facebookBorder {
+  border-top: thick solid;
+  border-color: #1258fd;
+
+}
+.twitterBorder {
+  border-top: thick solid;
+  border-color: #1ca0f2;
+
+}
+.youtubeBorder {
+  border-top: solid thick;
+  border-color: #c40326;
+
+}
+
+
+
+
+@media (max-width: 800px)  {
+  body {
+    text-align: center;
+  }
+  .darkMode {
+    text-align: center;
+  }
+
+}
